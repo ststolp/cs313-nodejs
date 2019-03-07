@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Post Form</h1>
+    <form action="/post_form" method="GET">
+      <label>Type</label>
+      <select name="type">
+          <option value="stamped">Letters(Stamped)</option>
+          <option value="metered">Letters(Metered)</option>
+          <option value="large">Large Envelopes(Flats)</option>
+          <option value="retail">First-Class Package Service-Retail</option>
+      </select>
+      <label>Weight (oz)</label>
+        <input type=text name="weight">
+      
+        
+       <input type="submit">Get Rate</input>
+    </form>
+</body>
+</html>
