@@ -1,0 +1,14 @@
+body {
+   margin: 0;    
+}
+
+form { 
+    border-radius: 15%;
+    border: 10px solid blue;
+    background-color: lightblue;
+    color: rgb(18, 84, 150);
+}
+
+p {
+    font-family: Helvetica;
+}
