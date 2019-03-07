@@ -4,7 +4,7 @@
   "description": "",
   "main": "app.js",
   "scripts": {
-    "start": "node server.js"
+    "start": "public/node server.js"
   },
   "author": "Steven Stolp",
   "license": "ISC",
