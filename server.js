@@ -24,7 +24,7 @@ function calculate_rate(type, weight) {
     switch(type) {
         case "stamped":
         base = 0.55;
-        if (weight > 3) {
+        if (Number(weight) > 3) {
             rate = 1;
             rate = rate.toFixed(2);
             return rate;
@@ -32,7 +32,7 @@ function calculate_rate(type, weight) {
         break;
         case "metered":
         base = 0.50;
-        if (weight > 3) {
+        if (Number(weight) > 3) {
             rate = 0.95;
             rate = rate.toFixed(2);
             return rate;
