@@ -33,6 +33,8 @@ function calculate_rate(type, weight) {
         break;
         default:
         rate = 0.187
+        var defaultRate = rate.toFixed(2);
+        return defaultRate;
         break;
     }
     rate = base + (0.15 * (Number(weight) -1));
