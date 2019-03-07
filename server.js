@@ -6,7 +6,7 @@ app.set("views", "view");
 app.set("view engine", "ejs");
 
 app.get("/post_form", calculate);
-app.listen("5000", function(){
+app.listen(process.env.PORT, function(){
 	console.log("It's working");
 });
 
