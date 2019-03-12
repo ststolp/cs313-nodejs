@@ -12,6 +12,7 @@ function redirectUser(req, res) {
 };
 
 app.get("/post_form", calculate);
+
 app.listen(process.env.PORT, function(){
 	console.log("It's working");
 });
