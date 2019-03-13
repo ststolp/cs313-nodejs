@@ -1,10 +1,10 @@
 var express = require('express');
 var app = express();
 
-const { Pool } = require('pg');
+const { Pool } = require('pg')
 
 const connection = process.env.DATABASE_URL;
-const pool = new Pool({connectionString: connection});
+const pool = new Pool({connectionString: connection})
 
 app.use(express.static("public"));
 app.set("views", "view");
